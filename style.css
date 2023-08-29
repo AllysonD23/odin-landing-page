@@ -2,7 +2,9 @@ body,
 .header,
 .links,
 .opener,
-.cards {
+.cards,
+.action,
+.action-box {
     display: flex;
 }
 
@@ -26,7 +28,8 @@ body {
     margin: 0px 150px 0px 150px;
 }
 
-.opener {
+.opener,
+.action-box {
     margin: 80px 150px 100px 150px;
 }
 
@@ -46,6 +49,34 @@ body {
     font-weight: 300;
 }
 
+.action-box {
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 5px;
+    padding: 40px 100px;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-box-left > h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.action-box-left > p {
+    color:#E5E7EB;
+    margin: 0;
+    padding-top: 0;
+}
+
+.action-box-right > button {
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
 .bold {
     font-weight: bold;
     text-align: right;
@@ -58,7 +89,7 @@ body {
 }
 
 .header,
-.footer {
+footer {
     background-color: #1F2937;
 }
 
@@ -135,6 +166,12 @@ button {
     object-fit: cover;
     border: 2px solid #3882F6;
     border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color:#E5E7EB;
+    padding: 20px 0px;
 }
 
 
