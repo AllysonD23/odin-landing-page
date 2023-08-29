@@ -22,9 +22,16 @@ body {
     align-items: center;
 }
 
-.links,
-.opener {
+.links {
     margin: 0px 150px 0px 150px;
+}
+
+.opener {
+    margin: 80px 150px 100px 150px;
+}
+
+.previews {
+    margin: 25px 150px 50px 150px;
 }
 
 .logo {
