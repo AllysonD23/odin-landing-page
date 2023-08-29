@@ -34,6 +34,24 @@ body {
     margin: 25px 150px 50px 150px;
 }
 
+.quote-text {
+    margin: 100px 250px 100px 250px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
